@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<root>
+	
+	<item>
+		<name>Microsoft Sculpt Ergonomic - Fix hash key</name>
+		<identifier>private.ms_sculpt_ergo_fix_hash_key</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BACKSLASH | ModifierFlag::NONE, 
+			KeyCode::KEY_3 | ModifierFlag::OPTION_R
+		</autogen>
+	</item>
+
+	<item>
+		<name>Microsoft Sculpt Ergonomic - Fix Tilde</name>
+		<identifier>private.ms_sculpt_ergo_fix_tilde_key</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BACKSLASH | ModifierFlag::SHIFT_L,
+			KeyCode::BACKQUOTE | ModifierFlag::SHIFT_L
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BACKSLASH | ModifierFlag::SHIFT_R,
+			KeyCode::BACKQUOTE | ModifierFlag::SHIFT_R
+		</autogen>
+	</item>
+
+	<item>
+		<name>Microsoft Sculpt Ergonomic - Fix backslash key</name>
+		<identifier>private.ms_sculpt_ergo_fix_backslash_key</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BACKQUOTE | ModifierFlag::NONE,
+			KeyCode::BACKSLASH | ModifierFlag::NONE 
+		</autogen>
+	</item>
+
+	<item>
+		<name>Microsoft Sculpt Ergonomic - Fix pipe</name>
+		<identifier>private.ms_sculpt_ergo_fix_pipe_key</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BACKQUOTE | ModifierFlag::SHIFT_L,
+			KeyCode::BACKSLASH | ModifierFlag::SHIFT_L
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BACKQUOTE | ModifierFlag::SHIFT_R,
+			KeyCode::BACKSLASH | ModifierFlag::SHIFT_R
+		</autogen>
+	</item>
+
+</root>
